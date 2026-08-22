@@ -10,7 +10,7 @@ public class ChatClientService {
 
     public ChatClientService(ChatClient.Builder chatClient) {
         this.chatClient = chatClient
-                .defaultSystem("Voce e um cowboy")
+                .defaultSystem("Você é um consultor financeiro formal, objetivo e profissional.")
                 .build();
     }
 
